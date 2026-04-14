@@ -35,6 +35,14 @@ a {
     padding: 20px;
 }
 
+.padding-50 {
+    padding: 50px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -59,12 +67,20 @@ h1 {
     font-family: "Cormorant Garamond", serif;
 }
 
-h2 {
+h2,h3,h4,h5 {
     font-family: "Cormorant Garamond", serif;
+}
+
+p {
+    font-family: "Manrope", sans-serif;
 }
 
 .centrer {
     text-align: center;
+}
+
+.w-20 {
+    width: 20%;
 }
 
 .w-30 {
