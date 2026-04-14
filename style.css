@@ -122,3 +122,7 @@ p {
 .bg-black {
     background-color: black;
 }
+
+input {
+    display: block;
+}
