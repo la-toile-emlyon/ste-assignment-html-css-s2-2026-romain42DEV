@@ -5,39 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Architecte d'intérieur</title>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+    <header class="flex padding-20">
 
         <div>
             <a href="index.html">
-                <img src="asset/architecte-interieur/logo.png" alt="logo" class="logo">
+                <img src="asset/architecte-interieur/image.png" alt="logo" class="logo">
             </a>
         </div>
 
         <nav>
-            <a href="">Lien 1</a>
-            <a href="">Lien 2</a>
-            <a href="">Lien 3</a>
+            <a href="">Promesse</a>
+            <a href="">Service proposés</a>
+            <a href="">Réalisations</a>
+            <a href="">Témoignages</a>
             <a href="">contact</a>
         </nav>
 
     </header>
 
     <main>
-        <section> <!-- section 1 -->
+        <section class="container-1200"> <!-- section 1 -->
 
-            <div> <!-- div qui englobe les titres et les CTAS -->
-                <h1>Titre de niveau 1</h1>
-                <h2>Sous-Titre</h2>
-                <a href="">CTA 1</a>
-                <a href="">CTA 2</a>
-            </div>
+            <div class="container-1000 flex align-items-center"> <!-- div qui englobe les titres et l'image -->
 
-            <div>
-                <img src="" alt="">
+                <div class="w-50"> <!-- div qui englobe les titres et les CTAS -->
+                    <h1>Clémence Rivière Studio</h1>
+                    <h2 class="margin-top-20">Révéler le potentiel de chaque espace</h2>
+
+                    <div class="flex margin-top-20"> <!-- div CTAS -->
+                        <a href="" class="btn blanc bg-black w-50">Prendre rendez-vous</a>
+                        <a href="" class="btn w-50">Voir mes réalisations</a>
+                    </div>
+                </div>
+
+                <div class="w-50"> <!-- div qui englobe l'image -->
+                    <img src="asset/architecte-interieur/couverture.png" alt="image 1" class="W-100">
+                </div>
+
             </div>
 
         </section>
@@ -214,8 +229,10 @@
 
             <div> <!-- div qui englobe les deux cards -->
 
-                <div>
-                    <i></i>
+                <div> <!-- div qui englobe la flèche de gauche -->
+                    <a href="">
+                        <i class="ph ph-arrow-circle-left"></i>
+                    </a>
                 </div>
 
                 <div> <!-- card 1 -->
@@ -245,8 +262,10 @@
 
                 </div>
 
-                <div>
-                    <i></i>
+                <div> <!-- div qui englobe la flèche de gauche -->
+                    <a href="">
+                        <i class="ph ph-arrow-circle-right"></i>
+                    </a>
                 </div>
 
             </div>
@@ -262,10 +281,26 @@
                 <h5>Prêts à travailler ensemble ?</h5>
 
                 <p>Une idée, un projet, une envie de collaboration ? Contactez-nous, nous serons ravis d'en discuter et
-                    de
-                    voir comment avancer ensemble. Laissez votre contact téléphonique et je vous rappellerai.</p>
+                    de voir comment avancer ensemble. Laissez votre contact téléphonique et je vous rappellerai.
+                </p>
 
-                <a href=""></a>
+                <div> <!-- div des réseaux -->
+                    <a href="">
+                        <i class="ph ph-discord-logo"></i>
+                    </a>
+                    <a href="">
+                        <i class="ph-fill ph-facebook-logo"></i>
+                    </a>
+                    <a href="">
+                        <i class="ph ph-dribbble-logo"></i>
+                    </a>
+                    <a href="">
+                        <i class="ph ph-instagram-logo"></i>
+                    </a>
+                    <a href="">
+                        <i class="ph ph-behance-logo"></i>
+                    </a>
+                </div>
             </div>
 
             <div> <!-- div qui englobe les inputs et le bouton -->

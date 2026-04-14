@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Manrope:wght@200..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +8,84 @@
 
 .logo {
     width: 50px;
+}
+
+header {
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Manrope", sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: "Cormorant Garamond", serif;
+}
+
+h2 {
+    font-family: "Cormorant Garamond", serif;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.blanc {
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
 }
