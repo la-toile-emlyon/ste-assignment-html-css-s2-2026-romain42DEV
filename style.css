@@ -41,6 +41,10 @@ a {
     flex-wrap: nowrap;
 }
 
+.padding-10 {
+    padding: 10px;
+}
+
 .padding-20 {
     padding: 20px;
 }
@@ -70,7 +74,7 @@ a {
 }
 
 .margin-left-10 {
-    margin-left: 1px;
+    margin-left: 10px;
 }
 
 .margin-left-20 {
@@ -92,7 +96,7 @@ h2,h3,h4,h5 {
 p {
     font-family: "Manrope", sans-serif;
     color: #2E2A26;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .centrer {
