@@ -39,7 +39,7 @@ a {
 
 .flex {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .padding-10 {
@@ -64,6 +64,10 @@ a {
 
 .space-between {
     justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
 }
 
 .justify-conter-center {
