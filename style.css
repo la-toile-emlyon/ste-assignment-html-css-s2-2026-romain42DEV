@@ -19,9 +19,19 @@ header {
     width: 100%;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
-    color: black;
+    color: #2E2A26;
     font-family: "Manrope", sans-serif;
     display: inline-block;
 }
@@ -59,20 +69,27 @@ a {
     margin-top: 20px;
 }
 
+.margin-left-10 {
+    margin-left: 1px;
+}
+
 .margin-left-20 {
     margin-left: 20px;
 }
 
 h1 {
     font-family: "Cormorant Garamond", serif;
+    color: #2E2A26;
 }
 
 h2,h3,h4,h5 {
     font-family: "Cormorant Garamond", serif;
+    color: #2E2A26;
 }
 
 p {
     font-family: "Manrope", sans-serif;
+    color: #2E2A26;
 }
 
 .centrer {
@@ -121,6 +138,10 @@ p {
 
 .bg-black {
     background-color: black;
+}
+
+.bg-marron {
+    background-color: #D8935C;
 }
 
 input {

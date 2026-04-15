@@ -25,17 +25,19 @@
         </div>
 
         <nav>
-            <a href="">Promesse</a>
-            <a href="">Service proposés</a>
-            <a href="">Réalisations</a>
-            <a href="">Témoignages</a>
-            <a href="">contact</a>
+            <ul>
+                <li><a href="#promesses">Promesses Clients</a></li>
+                <li><a href="#prestations">Prestations Proposés</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#temoignages">Témoignages</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
         </nav>
 
     </header>
 
     <main>
-        <section class="container-1200"> <!-- section hero -->
+        <section class="container-1200 bg-marron"> <!-- section hero -->
 
             <div class="container-1000 flex align-items-center"> <!-- div qui englobe les titres et l'image -->
 
@@ -60,23 +62,17 @@
 
         </section>
 
-        <section class="container-1200"> <!-- section 2 -->
+        <section class="container-1200 padding-20" id="promesses"> <!-- section 2 -->
 
             <div> <!-- div qui englobe le titre et le paragraphe -->
 
-                <h3>Promesses Clients</h3>
+                <h3 class="centrer">Promesses Clients</h3>
 
-                <h2>Une approche centrée sur vos besoins et votre bien-être</h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur. Elementum nisl duis tortor sed. Suspendisse lobortis
-                    vitae
-                    quis vehicula pellentesque sit id. Urna posuere consequat velit vulputate faucibus pretium arcu
-                    accumsan sit. Vel venenatis sapien.
-                </p>
+                <h2 class="centrer margin-top-20">Une approche centrée sur vos besoins et votre bien-être</h2>
 
             </div>
 
-            <div class="flex container-1000 padding-20"> <!-- div qui englobe l'image, les checks et le bouton -->
+            <div class="flex container-1000 margin-top-20 padding-20"> <!-- div qui englobe l'image, les checks et le bouton -->
 
 
                 <div class="w-50"> <!-- div qui englobe l'image -->
@@ -85,14 +81,14 @@
 
                 <div class="w-50 padding-50"> <!-- div qui englobe les checks et le bouton -->
 
-                    <ul class="margin-left-20">
-                        <li>Une approche humaine et créative, centrée sur vos usages et vos envies</li>
-                        <li>Des matériaux durables et des fournisseurs locaux privilégiés</li>
-                        <li>Une expertise esthétique alliée à une rigueur technique</li>
-                        <li>Un accompagnement complet, du croquis à la réception du chantier</li>
-                    </ul>
+                    <ol class="margin-left-20">
+                        <li><i class="ph ph-check-circle padding-20"></i>Une approche humaine et créative, centrée sur vos usages et vos envies</li>
+                        <li class="margin-top-20"><i class="ph ph-check-circle padding-20"></i>Des matériaux durables et des fournisseurs locaux privilégiés</li>
+                        <li class="margin-top-20"><i class="ph ph-check-circle padding-20"></i>Une expertise esthétique alliée à une rigueur technique</li>
+                        <li class="margin-top-20"><i class="ph ph-check-circle padding-20"></i>Un accompagnement complet, du croquis à la réception du chantier</li>
+                    </ol>
 
-                    <a href="" class="btn bg-black blanc margin-top-20">Appel à l'action</a>
+                    <a href="" class="btn bg-black blanc margin-top-20">Découvrir</a>
 
                 </div>
 
@@ -100,7 +96,7 @@
 
         </section>
 
-        <section class="container-1200"> <!-- section 3 -->
+        <section class="container-1200 bg-marron padding-20" id="prestations"> <!-- section 3 -->
 
             <h3 class="centrer">Prestations Proposés</h3>
 
@@ -117,7 +113,7 @@
                         <p class="margin-top-20">Repenser la circulation, les volumes et la lumière pour créer des
                             intérieurs élégants,
                             fonctionnels et chaleureux.</p>
-                        <a href="" class="margin-top-20 btn bg-black blanc"">CTA custom</a>
+                        <a href="" class="margin-top-20 btn bg-black blanc"">Demander un devis</a>
                     </div>
 
                 </div>
@@ -130,7 +126,7 @@
                         <h4 class="margin-top-20">Aménagement sur mesure</h4>
                         <p class="margin-top-20">Conception de mobilier intégré et d'espaces adaptés à vos besoins : bibliothèques, rangements, cuisines, bureaux...
                         </p>
-                        <a href="" class="margin-top-20 btn bg-black blanc"">CTA custom</a>
+                        <a href="" class="margin-top-20 btn bg-black blanc"">Demander un devis</a>
                     </div>
 
                 </div>
@@ -143,7 +139,7 @@
                         <h4 class="margin-top-20">Décoration intérieure</h4>
                         <p class="margin-top-20">Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui donner une identité unique.
                         </p>
-                        <a href="" class="margin-top-20 btn bg-black blanc"">CTA custom</a>
+                        <a href="" class="margin-top-20 btn bg-black blanc"">Demander un devis</a>
                     </div>
 
                 </div>
@@ -151,13 +147,13 @@
             </div>
         </section>
 
-        <section class="container-1200"> <!-- section 4 -->
+        <section class="container-1200" id="projets"> <!-- section 4 -->
 
             <h3 class="centrer padding-20">Projets</h3>
 
             <div class="flex container-1000"> <!-- div qui englobe l'image, le titre et le paragraphe -->
 
-                <div class="w-50"> <!-- div qui englobe l'image -->
+                <div class="w-50 padding-50"> <!-- div qui englobe l'image -->
                     <img src="asset/architecte-interieur/im3rd-media-FJZtZldA-uE-unsplash.jpg" alt="Appartement Haussmannien" class="w-100">
                 </div>
 
@@ -171,7 +167,7 @@
             </div>
         </section>
 
-        <section  class="container-1200"> <!-- section 5 -->
+        <section  class="container-1200 bg-marron padding-20"> <!-- section 5 -->
 
             <div class="flex container-1000"> <!-- div qui englobe le titre, le paragraphe et l'image -->
 
@@ -214,7 +210,7 @@
 
         </section>
 
-        <section class="container-1200"> <!-- section 7 -->
+        <section class="container-1200 bg-marron"> <!-- section 7 -->
 
             <div class="flex container-1000"> <!-- div qui englobe le titre, le paragraphe et l'image -->
 
@@ -233,7 +229,7 @@
 
         </section>
 
-        <section class="container-1200"> <!-- section 8 -->
+        <section class="container-1200 padding-20" id="temoignages"> <!-- section 8 -->
 
             <h3 class="centrer">Témoignages</h3>
 
@@ -257,7 +253,7 @@
 
                 </div>
 
-                <div class="w-20"> <!-- card 2 -->
+                <div class="w-20 gap-1O"> <!-- card 2 -->
 
                     <p>Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur mesure sont parfaits et l'espace respire.</p>
 
@@ -268,7 +264,7 @@
                     </div>
                 </div>
 
-                <div class="w-20"> <!-- card 3 -->
+                <div class="w-20 gap-1O"> <!-- card 3 -->
 
                     <p>J'adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière retravaillée, et des matières nobles. Je recommande à 100 %.</p>
 
@@ -290,7 +286,7 @@
         </section>
     </main>
 
-    <footer class="container-1200 padding-50">
+    <footer class="container-1200 padding-50 bg-marron" id="contact">
 
         <div class="flex container-1000"> <!-- div qui englobe le titre et les inputs -->
 
@@ -303,27 +299,27 @@
 
                 <div class="flex space-between margin-top-20"> <!-- div des réseaux -->
                     <div class="w-20">
-                        <a href="">
+                        <a target="_blank" href="https://discord.com">
                             <i class="ph ph-discord-logo"></i>
                         </a>
                     </div>
                     <div class="w-20">
-                        <a href="">
+                        <a target="_blank" href="https://fr-fr.facebook.com">
                             <i class="ph-fill ph-facebook-logo"></i>
                         </a>
                     </div>
                     <div class="w-20">
-                        <a href="">
+                        <a target="_blank" href="https://dribbble.com">
                             <i class="ph ph-dribbble-logo"></i>
                         </a>
                     </div>
                     <div class="w-20">
-                        <a href="">
+                        <a target="_blank" href="https://www.instagram.com">
                             <i class="ph ph-instagram-logo"></i>
                         </a>
                     </div>
                     <div class="w-20">
-                        <a href="">
+                        <a target="_blank" href="https://www.behance.net">
                             <i class="ph ph-behance-logo"></i>
                         </a>
                     </div>
@@ -332,15 +328,15 @@
 
             <div class="w-50 padding-20"> <!-- div qui englobe les inputs et le bouton -->
 
-                <div> <!-- div input -->
+                <div> <!-- div inputs -->
                     <input type="text" placeholder=" Nom">
                     <input type="text" placeholder=" Téléphone" class="margin-top-20">
                     <input type="text" placeholder=" email" class="margin-top-20">
                     <input type="text" placeholder=" message" class="margin-top-20">
                 </div>
 
-                <div class="margin-top-20">
-                    <a href="" class="btn bg-black blanc">Envoyer</a>
+                <div class="margin-top-20"> <!-- div bouton -->
+                    <a target="_blank" href="contact.html" class="btn bg-black blanc">Envoyer</a>
                 </div> 
 
             </div>
