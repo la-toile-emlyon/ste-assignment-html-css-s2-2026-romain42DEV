@@ -38,7 +38,7 @@ a {
 
 .flex {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .padding-20 {
@@ -74,26 +74,33 @@ a {
 }
 
 .margin-left-20 {
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 h1 {
     font-family: "Cormorant Garamond", serif;
     color: #2E2A26;
+    font-size: 50px;
 }
 
 h2,h3,h4,h5 {
     font-family: "Cormorant Garamond", serif;
     color: #2E2A26;
+    font-size: 30px;
 }
 
 p {
     font-family: "Manrope", sans-serif;
     color: #2E2A26;
+    font-size: 20px;
 }
 
 .centrer {
     text-align: center;
+}
+
+.w-5 {
+    width: 5%;
 }
 
 .w-20 {
@@ -142,6 +149,10 @@ p {
 
 .bg-marron {
     background-color: #D8935C;
+}
+
+.bg-grey {
+    background-color: rgb(205, 197, 197);
 }
 
 input {
