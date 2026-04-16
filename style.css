@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: floralwhite;
+    background-color: #FCF8F3;
 }
 
 header {
@@ -112,6 +112,10 @@ p {
     font-size: 22px;
 }
 
+.font-size-10 {
+    font-size: 14px;
+}
+
 .centrer {
     text-align: center;
 }
@@ -152,7 +156,7 @@ p {
 
 .btn {
     display: inline-block;
-    padding: 20px;
+    padding: 16px 32px;
     border: 1px solid black;
 }
 
