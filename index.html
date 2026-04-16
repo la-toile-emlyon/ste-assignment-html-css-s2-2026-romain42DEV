@@ -32,7 +32,7 @@
                 <li><a href="#prestations">Prestations Proposés</a></li>
                 <li><a href="#projets">Projets</a></li>
                 <li><a href="#temoignages">Témoignages</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#contact" class="btn bg-black blanc">contact</a></li>
             </ul>
         </nav>
 
@@ -377,10 +377,10 @@
             <div class="w-50 padding-20"> <!-- div qui englobe les inputs et le bouton -->
 
                 <div> <!-- div inputs -->
-                    <input type="text" placeholder=" Nom">
-                    <input type="text" placeholder=" Téléphone" class="margin-top-20">
-                    <input type="text" placeholder=" email" class="margin-top-20">
-                    <input type="text" placeholder=" message" class="margin-top-20">
+                    <input type="text" placeholder=" Nom" size="30" maxlength="25">
+                    <input type="text" placeholder=" Téléphone" class="margin-top-20" minlength="10" maxlength="14" size="30">
+                    <input type="text" placeholder=" email" class="margin-top-20" size="30" minlength="20" maxlength="32">
+                    <textarea name="textarea" rows="4" cols="29" placeholder=" message" minlength="10" maxlength="120"></textarea>
                 </div>
 
                 <div class="margin-top-20"> <!-- div bouton -->

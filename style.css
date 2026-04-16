@@ -27,6 +27,7 @@ header {
 ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 30px;
 }
 
@@ -109,7 +110,7 @@ h2,h3,h4,h5 {
 p {
     font-family: "Manrope", sans-serif;
     color: #2E2A26;
-    font-size: 22px;
+    font-size: 14px;
 }
 
 .font-size-10 {
@@ -156,7 +157,7 @@ p {
 
 .btn {
     display: inline-block;
-    padding: 16px 32px;
+    padding: 10px 20px;
     border: 1px solid black;
 }
 
@@ -182,4 +183,12 @@ p {
 
 input {
     display: block;
+}
+
+textarea {
+  max-height: 130px;
+  max-width: 500px;
+  margin-top: 20px;
+  padding: 2px;
+  border-radius: 5px;
 }
