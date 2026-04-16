@@ -10,6 +10,10 @@
     width: 50px;
 }
 
+body {
+    background-color: floralwhite;
+}
+
 header {
     position: sticky;
     justify-content: space-between;
@@ -154,6 +158,10 @@ p {
 
 .blanc {
     color: white;
+}
+
+.vert {
+    color: green;
 }
 
 .bg-black {
