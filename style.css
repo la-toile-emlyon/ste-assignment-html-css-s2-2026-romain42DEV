@@ -42,6 +42,8 @@ a {
     display: inline-block;
 }
 
+/* Propriétées Flex */
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +85,16 @@ a {
     justify-content: center;
 }
 
+/* Marges */
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
 .margin-top-20 {
     margin-top: 20px;
 }
@@ -94,6 +106,9 @@ a {
 .margin-left-20 {
     margin-left: 20px;
 }
+
+
+/* Titres */
 
 h1 {
     font-family: "Cormorant Garamond", serif;
@@ -113,13 +128,20 @@ p {
     font-size: 14px;
 }
 
-.font-size-10 {
-    font-size: 14px;
-}
-
 .centrer {
     text-align: center;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+
+/* Largeurs */
 
 .w-5 {
     width: 5%;
@@ -141,6 +163,9 @@ p {
     width: 100%;
 }
 
+
+/* Container */
+
 .container-1000{
     max-width: 1000px;
     width: 100%;
@@ -155,9 +180,15 @@ p {
     margin-right: auto;
 }
 
+/* Bouton */
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.border-1 {
     border: 1px solid black;
 }
 
@@ -165,9 +196,12 @@ p {
     color: white;
 }
 
-.vert {
-    color: green;
+.border-radius-20 {
+    border-radius: 20px;
 }
+
+
+/* Backgrounds et Couleurs */
 
 .bg-black {
     background-color: black;
@@ -178,8 +212,22 @@ p {
 }
 
 .bg-grey {
-    background-color: rgb(205, 197, 197);
+    background-color: #EDE9E6;
 }
+
+.vert {
+    color: green;
+}
+
+.grey {
+    color: #A6AEBF;
+}
+
+.jaune {
+    color: yellow;
+}
+
+/* Inputs */
 
 input {
     display: block;
