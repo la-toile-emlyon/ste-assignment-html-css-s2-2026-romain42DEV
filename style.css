@@ -24,6 +24,8 @@ header {
     background-color: rgb(212, 203, 203);
 }
 
+/* listes */
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -33,14 +35,18 @@ ul {
 
 li {
     list-style: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
 }
 
-a {
-    text-decoration: none;
-    color: #2E2A26;
-    font-family: "Manrope", sans-serif;
-    display: inline-block;
+.liste li{
+    display: flex;
 }
+
+.liste i {
+    margin-top: 3px;
+}
+
 
 /* Propriétées Flex */
 
@@ -99,12 +105,20 @@ a {
     margin-top: 20px;
 }
 
+.margin-top-30 {
+    margin-top: 30px;
+}
+
 .margin-left-10 {
     margin-left: 10px;
 }
 
 .margin-left-20 {
     margin-left: 20px;
+}
+
+.margin-left-40 {
+    margin-left: 40px;
 }
 
 
@@ -116,10 +130,16 @@ h1 {
     font-size: 50px;
 }
 
-h2,h3,h4,h5 {
+h2,h3,h5 {
     font-family: "Cormorant Garamond", serif;
     color: #2E2A26;
     font-size: 30px;
+}
+
+h4 {
+   font-family: "Cormorant Garamond", serif; 
+   color: #2E2A26;
+   font-size: 22px;
 }
 
 p {
@@ -180,7 +200,14 @@ p {
     margin-right: auto;
 }
 
-/* Bouton */
+/* Boutons */
+
+a {
+    text-decoration: none;
+    color: #2E2A26;
+    font-family: "Manrope", sans-serif;
+    display: inline-block;
+}
 
 .btn {
     display: inline-block;
